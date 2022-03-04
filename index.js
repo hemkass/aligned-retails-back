@@ -24,7 +24,7 @@ app.post("/form", (req, res) => {
   /* CREATION DE L'OBJET DATA */
   const data = {
     from: `${firstname} ${lastname} ${telephone} <${email}>`,
-    to: "heimkass64@gmail.com",
+    to: "alignedretailsolutionsproject@gmail.com",
     subject: "Formulaire rempli",
     text: `${message}`,
   };
