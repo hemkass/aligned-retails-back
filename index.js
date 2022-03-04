@@ -12,7 +12,7 @@ const api_key = process.env.api_key;
 const domain = process.env.domain;
 
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome on my portfolio app" });
+  res.json({ message: "Welcome on my form" });
 });
 
 const mailgun = require("mailgun-js")({ apiKey: api_key, domain: domain });
